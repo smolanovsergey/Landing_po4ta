@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PrizeMe</title>
+	<link href="./css/normalize.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/media.css" rel="stylesheet">
+	<link href="./css/zoom.css" rel="stylesheet">
+	<script src="/js/"></script>
+	<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+	<SCRIPT type="text/javascript" src="./js/popup_img.js"></SCRIPT>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="background-middle transparent-fon">
+			<div class="background-top">
+				<p class="smaill-description container">
+					*У разі Вашої перемоги в Акції "Золотий Фонд" та виникнення подібної ситуації Ви можете отримати такого листа
+				</p>
+				<section class="logo container">
+					<img src="img/logo.png">
+				</section>
+				<section class="description_header container">
+					<span class="container">
+						<p>
+							{{Name}},<br>
+							На Вас чекає грандіозне нагородження!
+						</p>
+						<hr>
+						<p class="h3">
+							Від щирого серця вітаю Вас! Ви заслужено здобули перемогу і будете винагороджені по максимуму!  Мені приємно усвідомлювати, що саме Ви отримаєте Головний приз Акції – 317 000,00 гривень!
+						</p>
+						<div class="button_header_description">
+							обрати дату нагородження
+						</div>
+					</span>
+				</section>
+			</div>
+		</div>
+		<div class="person-signature">
+			<div class="signature-text">
+				<p>З повагою, Голова Фінансового відділу</p>
+				<p>з виплати призів Олена Філімонова.</p>
+			</div>
+			<div class="signature-image img-transform">
+				<img src="img/signatyre.png">
+			</div>
+		</div>
+	</header>
+	<section class="devider-first img-devider">
+		<div class="text-black">
+			{{Name}},<br>вітаємо!<br>Ви успішно пройшли всі етапи відбору і отримуєте
+		</div>
+		<div class="text-red">
+			ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ!
+		</div>
+	</section>
+	<section class="finance container">
+		<span class="finanse-content">
+			<div class="main-content">			
+				<p class="bold-main">Фінансовий відділ “PrizeMe” пишається Вами!</p>
+				<p class="thin">
+					Ви дуже швидко реагували на листи і правильно заповнювали офіційні документи, саме тому перед нагородженням ми вирішили видати Вам <span style="color: #A70B0B">ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ,</span> що надає Вам унікальне право на першочергову та БЕЗКОШТОВНУ доставку виграшу.*
+				</p>
+				<p>
+					Радійте! Гонитва за виграшем завершена. Ваші документи підписано, гроші підготовлено. Тепер Ви гарантовано одержите <span style="color: #DD9E23">317 000,00 гривень</span> без черг і на першу вимогу.
+				</p>
+				<p class="text-article">
+					І зараз все, що лишилося – лише повідомити нам зручний для Вас день доставки грошей! Це останній обов’язковий крок для отримання 317 000,00 гривень.*
+				</p>
+				<p>
+					Завантажте ДИПЛОМ або запишіть його номер для пред’явлення кур’єру Служби доставки (за бажанням можете 	роздрукувати ДИПЛОМ, після завантаження). Ознайомтеся з ДОДАТКОМ, щоб дізнатись усі подробиці Вашої перемоги. 
+				</p>
+			</div>
+			<div class="right-column">
+				<img class="red-diplom image" src="img/red-diplom-prew.jpg">
+					
+					<div class="button" id="fileRequest" >
+					ЗАВАНТАЖИТИ
+					</div>
+				
+				<img class="dodatok" src="img/dodatoc-prew.jpg">
+			</div>
+		</span>
+		<div class="wide-column">	
+				Завдяки Вашому ЧЕРВОНОМУ ДИПЛОМУ ПЕРЕМОЖЦЯ доставку виграшу буде здійснено БЕЗКОШТОВНО!
+		</div>
+	</section>
+	<section class="man">
+		<div class="first-in">
+			<div class="second-in">
+				<span class="head-text-white">
+					{{Name}},<br>Ви – найкращий клієнт компанії!
+				</span>
+				<span class="head-text-gold">
+					Ви – Власник ЧЕРВОНОГО ДИПЛОМА ПЕРЕМОЖЦЯ!
+				</span>
+				<span class="divider-hr"></span>
+				<span class="container" style="display: block">
+					<p>
+						Ми вже готові доставити Вам виграш за адресою Вашого проживання. Головне – повідомте, коли Вам буде зручно зустріти кур’єра компанії та одержати гроші.
+					</p>
+					<p>
+						Ви можете обрати будь-який тиждень виплат та день (навіть вихідний) для візиту кур’єра.
+					</p>
+				</span>
+			</div>
+		</div>
+	</section>
+	<section class="blank_na_dostavku devider-first img-devider">
+		<p>Ми надсилаємо Вам<br>“БЛАНК НА ДОСТАВКУ ВИГРАШУ”.</p>
+	</section>
+	<section class="blank-na-dostavku-content container">
+		<span class="cover">
+			<div class="left-column">
+				<p class="bold-blanki">{{Name}}!</p>
+				<p class="normal-blanki">
+					Щоб отримати свій виграш – впишіть у “БЛАНК” зручну для Вас дату отримання виграшу та надішліть нам. Після цього кур’єр “PrizeMe” доставить Вам <span class="gold">317 000,00 гривень</span> прямо додому.
+				</apsn>
+			</div>
+			<div class="right-column">
+				<img src="img/blank_obrazec.jpg">
+			</div>
+		</span>
+		<div class="wide-column">
+			ЗАПОВНЕНИЙ “БЛАНК НА ДОСТАВКУ ВИГРАШУ” – ВАША ГАРАНТІЯ ОТРИМАННЯ 317 000,00 ГРИВЕНЬ!
+		</div>
+	</section>
+	<section class="instruction">
+		<div class="instruction-gradient">
+			<div class="instruction-header container">
+				<p>ІНСТРУКЦІЯ З ОДЕРЖАННЯ ВИГРАШУ</p>
+				<div class="instruction-hr"></div>
+			</div>
+			<div class="instruction-flex container">
+				<div class="single">
+					<img src="img/block_1.svg">
+					<span>1</span>
+					<p> Завантажте ЧЕРВОНИЙ 
+						ДИПЛОМ ПЕРЕМОЖЦЯ  або перепишіть його номер. Ознайомтся з ДОДАТКОМ.
+					</p>
+				</div>
+				<div class="single">
+					<img src="img/block_2.svg">
+					<span>2</span>
+					<p> Заповніть “БЛАНК НА ДОСТАВКУ ВИГРАШУ”. Обов’язково впишіть зручні для Вас тиждень виплат та день одержання грошей, а також адресу.
+					</p>
+				</div>
+				<div class="single">
+					<img src="img/block_3.svg">
+					<span>3</span>
+					<p> Оберіть уподобані товари з акційної товарної пропозиції.
+						Акційна пропозиція від PrizeMe дійсна лише протягом 24 годин! Замовте будь-які товари за СУПЕРЦІНОЮ!
+					</p>
+				</div>
+				<div class="single">
+					<img src="img/block_4.svg">
+					<span>4</span>
+					<p> Заберіть на пошті посилку із замовленими товарами та очікуйте кур’єра, який БЕЗКОШТОВНО ПРИВЕЗЕ Вам гроші прямо додому.
+					</p>
+				</div>
+			</div>
+			<div class="instruction-content container">
+				<p>
+					Увага: без Вашого замовлення “БЛАНК НА ДОСТАВКУ ВИГРАШУ” автоматично відбракується Системою автоматичної верифікації, а отже, виплата Вам 317 000,00 гривень НЕ ВІДБУДЕТЬСЯ! 
+				</p>
+			</div>
+			<div class="instruction-bottom container" style="color: #FF0000;">
+				Якщо НЕ НАДІШЛЕТЕ ВІДПОВІДЬ –<br> ВТРАТИТЕ 317 000,00 гривень<br> назавжди!
+			</div>
+		</div>
+	</section>
+	<section class="section-form">
+		<form class="container">
+			<span class="ramka-inner">
+				<p class="form_title">Бланк на доставку виграшу</p>
+				<span class="check-row"><img src="img/chack.png"><p class="p-check"> 
+					Я, {{Name}},<br> як Головний переможець Акції погоджуюсь отримати свій виграш – 317 000,00 гривень – готівкою.
+				</p></span>
+				<p class="wait">Я очікую доставку грошового Призу:</p>
+				<div class="select-container">
+					<div class="radio-button">
+						<span class="radio-dup">
+							<input type="radio" id="contactChoice1"
+	     					name="contact" value="1">
+	    					<label for="contactChoice1">Першого тижня виплат (01–05.05)</label>
+    					</span>
+    					<span class="radio-dup">
+							<input type="radio" id="contactChoice2"
+	     					name="contact" value="2" checked>
+	    					<label for="contactChoice2">Другого тижня виплат (06–12.05)</label>
+    					</span>
+    					<span class="radio-dup">
+							<input type="radio" id="contactChoice3"
+	     					name="contact" value="3">
+	    					<label for="contactChoice3">Третього тижня виплат (13–19.05)</label>
+    					</span>
+    					<span class="radio-dup">
+							<input type="radio" id="contactChoice4"
+	     					name="contact" value="4">
+	    					<label for="contactChoice4">Четвертого тижня виплат (20–26.05)</label>
+    					</span>
+    					<span class="radio-dup">
+							<input type="radio" id="contactChoice5"
+	     					name="contact" value="5">
+	    					<label for="contactChoice5">П’ятого тижня виплат (27.05–31.05).</label>
+    					</span>
+					</div>
+					<div class="container-input">
+						<span class="container-input-cover small-input">
+							<p>В зручний для мене день тижня:</p>
+							<select>
+							  <option>понедельник</option>
+							  <option>вторник</option>
+							  <option>среда</option>
+							  <option>четверг</option>
+							  <option>пятница</option>
+							  <option>суббота</option>
+							  <option>воскресенье</option>
+							</select>
+						</span>
+						<span class="container-input-cover small-input">
+							<p>Номер телефону для зв’язку з Вами<br> та уточнення адреси доставки: </p>
+							<input type="tel" placeholder="+38 011 222 333 44" required>
+						</span>	
+					</div>
+					<span class="container-input-cover_wide wide-input">
+							<p>Адреса доставки: </p>
+							<input type="tex" placeholder="Область/Район/Населений пункт/Вулиця/Номер будинку/Номер квартири" required maxlength="1000">
+						</span>
+						<span class="container-chacked">
+							<span>
+								<div><input type="radio" name="field1" id="mc1"></div>
+								<label for="mc1">
+								Я відмовляюсь від БЕЗКОШТОВНОЇ доставки мені виграшу. Прошу вислати мені 317 000,00 гривень поштовим переказом.</label>
+							</span>
+							<span>
+								<div><input type="radio" name="field1" id="mc2" checked></div>
+								<label for="mc2">
+								Я заповнюю цей документ і роблю обов’язкове замовлення товарів.</label>
+							</span>
+						</span>
+				</div>
+			</span>
+		</form>
+		<div class="form-button">НАДІСЛАТИ</div>
+	</section>
+	<section class="footer container">
+		<p>Щоб Служба автоматичної верифікації не відбракувала Ваш БЛАНК НА ДОСТАВКУ ВИГРАШУ, зробіть обов’язкове замовлення товарів із <span style="color: #D92323;">акційної пропозиції.</span>
+</p>
+	</section>
+	<footer class="container">
+		<p>*Із правилами Акції "Золотий Фонд" можна ознайомитися за посиланням: <br>https://prizeme.com.ua/obshchiye-pravila-i-polozheniya-provedeniya-aktsii-i-opredeleniya-pobediteley-prayz-mi.pdf </p>
+		<p>*Саме таке ім'я можуть мати співробітники компанії, якщо будуть обіймати відповідні посади на момент виплати Призу</p>
+	</footer>
+	
+</body>
+</html>
